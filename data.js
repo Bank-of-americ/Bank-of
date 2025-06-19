@@ -83,7 +83,7 @@ const usuarios = [
   },
 {
     email: "ec39055@gmail.com",
-    password: "3905",
+    password: "2305",
     nombre: " EDGAR AURELIO CALDERON RAMIREZ",
     cuenta: {
       nombre: "Cuenta Ahorros",
