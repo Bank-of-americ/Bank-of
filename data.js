@@ -6,7 +6,7 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "1001234568",
-      saldo: 2500,
+      saldo: 4000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
@@ -43,7 +43,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$4.000" },
+        { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$2.000" },
         
       ]
     }
@@ -77,6 +77,24 @@ const usuarios = [
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2.400" },
         { descripcion: "Depósito wester union", fecha: "16/6/2025", monto: "+$1.600" }
+        
+      ]
+    }
+  },
+{
+    email: "ec39055@gmail.com",
+    password: "3905",
+    nombre: " EDGAR AURELIO CALDERON RAMIREZ",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088398898",
+      saldo: 3105,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2.000" },
+        { descripcion: "Depósito wester union", fecha: "17/6/2025", monto: "+$585" } 
+        { descripcion: "Depósito wester union", fecha: "18/6/2025", monto: "+$520" }
         
       ]
     }
