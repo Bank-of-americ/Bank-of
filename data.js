@@ -28,7 +28,6 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$4.000" },
-        
       ]
     }
   },
@@ -44,7 +43,6 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$2.000" },
-        
       ]
     }
   },
@@ -60,7 +58,6 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Deposito inicial", fecha: "16/6/2025", monto: "+$3.000" },
-        
       ]
     }
   },
@@ -77,11 +74,10 @@ const usuarios = [
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2.400" },
         { descripcion: "Depósito wester union", fecha: "16/6/2025", monto: "+$1.600" }
-        
       ]
     }
   },
-{
+  {
     email: "ec39055@gmail.com",
     password: "2305",
     nombre: " EDGAR AURELIO CALDERON RAMIREZ",
@@ -93,16 +89,9 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2.000" },
-        { descripcion: "Depósito wester union", fecha: "17/6/2025", monto: "+$585" } 
+        { descripcion: "Depósito wester union", fecha: "17/6/2025", monto: "+$585" },
         { descripcion: "Depósito wester union", fecha: "18/6/2025", monto: "+$520" }
-        
       ]
     }
-  },
-
-
-  
-
-  
-  
+  }
 ];
