@@ -124,7 +124,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "26/6/2025", monto: "+$3.000" }
+        { descripcion: "Fitz Gerald law company", fecha: "26/6/2025", monto: "+$3.000" },
         { descripcion: "Fitz Gerald law company", fecha: "28/6/2025", monto: "+$1.500" }
       ]
     }
