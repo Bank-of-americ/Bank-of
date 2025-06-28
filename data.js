@@ -10,7 +10,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Depósito inicial", fecha: "13/6/2025", monto: "+$200.000" },
+        { descripcion: "Depósito inicial", fecha: "13/6/2025", monto: "+$200000" },
         { descripcion: "Depósito wester union", fecha: "16/6/2025", monto: "+$500" },
         { descripcion: "Depósito wester union", fecha: "16/6/2025", monto: "+$1500" },
         { descripcion: "Depósito Bank of america", fecha: "23/6/2025", monto: "+$500" },
@@ -29,7 +29,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$4.000" }
+        { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$4000" }
       ]
     }
   },
@@ -44,7 +44,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$4.000" }
+        { descripcion: "Deposito inicial", fecha: "13/6/2025", monto: "+$4000" }
       ]
     }
   },
@@ -59,7 +59,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Deposito inicial", fecha: "16/6/2025", monto: "+$3.000" }
+        { descripcion: "Deposito inicial", fecha: "16/6/2025", monto: "+$3000" }
       ]
     }
   },
@@ -74,8 +74,8 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Company Kelly Services", fecha: "11/11/2024", monto: "+$3.000" },
-        { descripcion: "Depósito Bank of america", fecha: "21/6/2025", monto: "+$1.000" }
+        { descripcion: "Company Kelly Services", fecha: "11/11/2024", monto: "+$3000" },
+        { descripcion: "Depósito Bank of america", fecha: "21/6/2025", monto: "+$1000" }
       ]
     }
   },
@@ -85,13 +85,13 @@ const usuarios = [
     nombre: "Bertoldo Cerrito Gutiérrez",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "1001234570",
+      numero: "1001234571", // Corregido para no repetir con Patricia Roxana
       saldo: 4000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2.400" },
-        { descripcion: "Depósito wester union", fecha: "16/6/2025", monto: "+$1.600" }
+        { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2400" },
+        { descripcion: "Depósito wester union", fecha: "16/6/2025", monto: "+$1600" }
       ]
     }
   },
@@ -106,7 +106,7 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2.000" },
+        { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2000" },
         { descripcion: "Depósito wester union", fecha: "17/6/2025", monto: "+$585" },
         { descripcion: "Depósito wester union", fecha: "18/6/2025", monto: "+$520" },
         { descripcion: "Depósito wester union", fecha: "25/6/2025", monto: "+$600" }
@@ -124,8 +124,8 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "26/6/2025", monto: "+$3.000" },
-        { descripcion: "Fitz Gerald law company", fecha: "28/6/2025", monto: "+$1.500" }
+        { descripcion: "Fitz Gerald law company", fecha: "26/6/2025", monto: "+$3000" },
+        { descripcion: "Fitz Gerald law company", fecha: "28/6/2025", monto: "+$1500" }
       ]
     }
   },
@@ -140,8 +140,10 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "27/6/2025", monto: "+$2.000" }
+        { descripcion: "Fitz Gerald law company", fecha: "27/6/2025", monto: "+$2000" }
       ]
     }
   }
 ];
+
+export default usuarios;
