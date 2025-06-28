@@ -85,7 +85,7 @@ const usuarios = [
     nombre: "Bertoldo Cerrito Gutiérrez",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "1001234571", // Corregido para no repetir con Patricia Roxana
+      numero: "1001234571",
       saldo: 4000,
       creditos: 0,
       prestamos: 0,
